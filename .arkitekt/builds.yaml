@@ -1,0 +1,22 @@
+builds:
+- build_id: ccac3922-f3cf-4cae-8d79-b22a967ae5bd
+  builder: port
+  manifest:
+    author: jhnnsrs
+    identifier: standard
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: dev
+latest_build:
+  build_id: ccac3922-f3cf-4cae-8d79-b22a967ae5bd
+  builder: port
+  manifest:
+    author: jhnnsrs
+    identifier: standard
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: dev

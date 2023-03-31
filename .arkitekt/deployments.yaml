@@ -1,0 +1,24 @@
+deployments:
+- author: jhnnsrs
+  command: arkitekt run port
+  created_at: '2023-03-31T05:36:42.697053'
+  definitions:
+  - args:
+    - annotations: []
+      description: The hello world string
+      key: hello
+      kind: STRING
+      nullable: false
+    description: Prints hello world
+    interface: test_gpu
+    interfaces: []
+    kind: FUNCTION
+    name: Hello World
+    returns: []
+  identifier: standard
+  image: jhnnsrs/standard:dev
+  requirements:
+  - gpu
+  scopes:
+  - read
+  version: dev

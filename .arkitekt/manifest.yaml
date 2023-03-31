@@ -1,0 +1,7 @@
+author: jhnnsrs
+identifier: standard
+requirements:
+- gpu
+scopes:
+- read
+version: dev

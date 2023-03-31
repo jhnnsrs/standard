@@ -9,8 +9,7 @@ builds:
     scopes:
     - read
     version: dev
-latest_build:
-  build_id: 420e6e27-6052-4629-b2c3-16739fd56a24
+- build_id: fc84e78e-635a-4b73-9aac-97e2e7931f73
   builder: port
   manifest:
     author: jhnnsrs
@@ -20,3 +19,24 @@ latest_build:
     scopes:
     - read
     version: dev
+- build_id: 564a1909-aee8-430c-abfa-11d7b30f4523
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: standard
+    requirements: []
+    scopes:
+    - read
+    version: dev2
+latest_build:
+  build_id: 564a1909-aee8-430c-abfa-11d7b30f4523
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: standard
+    requirements: []
+    scopes:
+    - read
+    version: dev2

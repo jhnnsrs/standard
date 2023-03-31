@@ -1,7 +1,7 @@
 deployments:
 - author: jhnnsrs
   command: arkitekt run port
-  created_at: '2023-03-31T05:36:42.697053'
+  created_at: '2023-03-31T06:32:26.883181'
   definitions:
   - args:
     - annotations: []
@@ -10,15 +10,15 @@ deployments:
       kind: STRING
       nullable: false
     description: Prints hello world
-    interface: test_gpu
+    interface: hello_world
     interfaces: []
     kind: FUNCTION
     name: Hello World
     returns: []
+  entrypoint: app
   identifier: standard
   image: jhnnsrs/standard:dev
-  requirements:
-  - gpu
+  requirements: []
   scopes:
   - read
   version: dev

@@ -1,7 +1,7 @@
 from arkitekt import register
 
 @register
-def test_gpu(hello: str) -> None:
+def hello_world(hello: str) -> None:
     """Hello World
 
     Prints hello world

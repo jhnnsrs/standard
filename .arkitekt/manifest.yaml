@@ -1,7 +1,7 @@
 author: jhnnsrs
+entrypoint: app
 identifier: standard
-requirements:
-- gpu
+requirements: []
 scopes:
 - read
 version: dev

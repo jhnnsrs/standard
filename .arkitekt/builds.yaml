@@ -1,22 +1,22 @@
 builds:
-- build_id: ccac3922-f3cf-4cae-8d79-b22a967ae5bd
+- build_id: 420e6e27-6052-4629-b2c3-16739fd56a24
   builder: port
   manifest:
     author: jhnnsrs
+    entrypoint: app
     identifier: standard
-    requirements:
-    - gpu
+    requirements: []
     scopes:
     - read
     version: dev
 latest_build:
-  build_id: ccac3922-f3cf-4cae-8d79-b22a967ae5bd
+  build_id: 420e6e27-6052-4629-b2c3-16739fd56a24
   builder: port
   manifest:
     author: jhnnsrs
+    entrypoint: app
     identifier: standard
-    requirements:
-    - gpu
+    requirements: []
     scopes:
     - read
     version: dev
